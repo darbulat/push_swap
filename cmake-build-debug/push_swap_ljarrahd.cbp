@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="push_swap_ljarrahd"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="push_swap_ljarrahd">
+				<Option output="/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/push_swap_ljarrahd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap_ljarrahd"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="push_swap_ljarrahd/fast">
+				<Option output="/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/push_swap_ljarrahd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap_ljarrahd/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/bulat/school21/push_swap/push_swap_ljarrahd/commands.c">
+			<Option target="push_swap_ljarrahd"/>
+		</Unit>
+		<Unit filename="/home/bulat/school21/push_swap/push_swap_ljarrahd/ft_parser.c">
+			<Option target="push_swap_ljarrahd"/>
+		</Unit>
+		<Unit filename="/home/bulat/school21/push_swap/push_swap_ljarrahd/ft_qsort.c">
+			<Option target="push_swap_ljarrahd"/>
+		</Unit>
+		<Unit filename="/home/bulat/school21/push_swap/push_swap_ljarrahd/ft_small_stack.c">
+			<Option target="push_swap_ljarrahd"/>
+		</Unit>
+		<Unit filename="/home/bulat/school21/push_swap/push_swap_ljarrahd/ft_sort_big_stack.c">
+			<Option target="push_swap_ljarrahd"/>
+		</Unit>
+		<Unit filename="/home/bulat/school21/push_swap/push_swap_ljarrahd/ft_sort_big_stack2.c">
+			<Option target="push_swap_ljarrahd"/>
+		</Unit>
+		<Unit filename="/home/bulat/school21/push_swap/push_swap_ljarrahd/libft/ft_atoi.c">
+			<Option target="push_swap_ljarrahd"/>
+		</Unit>
+		<Unit filename="/home/bulat/school21/push_swap/push_swap_ljarrahd/libft/ft_error_exit.c">
+			<Option target="push_swap_ljarrahd"/>
+		</Unit>
+		<Unit filename="/home/bulat/school21/push_swap/push_swap_ljarrahd/libft/ft_isspace.c">
+			<Option target="push_swap_ljarrahd"/>
+		</Unit>
+		<Unit filename="/home/bulat/school21/push_swap/push_swap_ljarrahd/libft/ft_putchar_fd.c">
+			<Option target="push_swap_ljarrahd"/>
+		</Unit>
+		<Unit filename="/home/bulat/school21/push_swap/push_swap_ljarrahd/libft/ft_putnbr_fd.c">
+			<Option target="push_swap_ljarrahd"/>
+		</Unit>
+		<Unit filename="/home/bulat/school21/push_swap/push_swap_ljarrahd/libft/ft_putstr_fd.c">
+			<Option target="push_swap_ljarrahd"/>
+		</Unit>
+		<Unit filename="/home/bulat/school21/push_swap/push_swap_ljarrahd/libft/ft_split.c">
+			<Option target="push_swap_ljarrahd"/>
+		</Unit>
+		<Unit filename="/home/bulat/school21/push_swap/push_swap_ljarrahd/libft/ft_strjoin.c">
+			<Option target="push_swap_ljarrahd"/>
+		</Unit>
+		<Unit filename="/home/bulat/school21/push_swap/push_swap_ljarrahd/libft/ft_strlen.c">
+			<Option target="push_swap_ljarrahd"/>
+		</Unit>
+		<Unit filename="/home/bulat/school21/push_swap/push_swap_ljarrahd/libft/ft_strsfree.c">
+			<Option target="push_swap_ljarrahd"/>
+		</Unit>
+		<Unit filename="/home/bulat/school21/push_swap/push_swap_ljarrahd/sort_stack.c">
+			<Option target="push_swap_ljarrahd"/>
+		</Unit>
+		<Unit filename="/home/bulat/school21/push_swap/push_swap_ljarrahd/stacks.c">
+			<Option target="push_swap_ljarrahd"/>
+		</Unit>
+		<Unit filename="/home/bulat/school21/push_swap/push_swap_ljarrahd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,4 @@
+/snap/clion/162/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/bulat/school21/push_swap/push_swap_ljarrahd
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bulat/school21/push_swap/push_swap_ljarrahd/cmake-build-debug
