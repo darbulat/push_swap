@@ -39,7 +39,7 @@ int	ft_args_len(char **args, int n)
 	return (i);
 }
 
-int 	*ft_get_args(char **arr, int n)
+int	*ft_get_args(char **arr, int n)
 {
 	int		*res;
 	char	**tmp;
@@ -55,7 +55,10 @@ int 	*ft_get_args(char **arr, int n)
 		j = 0;
 		tmp = ft_split(arr[k++], ' ');
 		while (tmp[j])
+		{
 			res[i++] = ft_atoi(tmp[j++]);
+			free(tmp[j - 1]);
+		}
 		free(tmp);
 	}
 	return (res);

@@ -27,9 +27,9 @@ int	parse_sign(const char *nptr, int *sign, int i)
 
 int	ft_atoi(const char *nptr)
 {
-	int					sign;
-	int					i;
-	unsigned long long	nbr;
+	int			sign;
+	int			i;
+	long long	nbr;
 
 	i = 0;
 	nbr = 0;
@@ -43,5 +43,8 @@ int	ft_atoi(const char *nptr)
 		else
 			ft_error_exit();
 	}
-	return ((int)(sign * nbr));
+	nbr = sign * nbr;
+	if (nbr < -2147483648 || nbr > 2147483647)
+		ft_error_exit();
+	return ((int)nbr);
 }

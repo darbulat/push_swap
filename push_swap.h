@@ -40,7 +40,7 @@ int		get_next_order_in_a(t_stack *b, int cur_order);
 void	push_elems_to_b(t_stack **a, t_stack **b);
 int		is_value_valid(int value, t_stack *stack);
 int		ft_args_len(char **args, int n);
-int 	*ft_get_args(char **arr, int n);
+int		*ft_get_args(char **arr, int n);
 t_stack	*ft_put_stack(int *arr, int n);
 
 #endif //PUSH_SWAP_H

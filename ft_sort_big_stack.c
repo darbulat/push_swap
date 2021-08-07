@@ -2,6 +2,8 @@
 
 void	rotate_stack(t_stack **a, int index, char *command)
 {
+	char	*str;
+
 	if (index < ft_stacklen(*a) / 2 + 1)
 	{
 		while (index--)
@@ -10,7 +12,11 @@ void	rotate_stack(t_stack **a, int index, char *command)
 	else
 	{
 		while (index++ < ft_stacklen(*a))
-			reverse_rotate_a(a, ft_strjoin("r", command));
+		{
+			str = ft_strjoin("r", command);
+			reverse_rotate_a(a, str);
+			free(str);
+		}
 	}
 }
 

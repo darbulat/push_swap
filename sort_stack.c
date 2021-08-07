@@ -32,6 +32,7 @@ t_stack	*ft_read_stack(char **args, int n)
 	head = ft_put_stack(arr, n);
 	ft_qsort(arr, 0, n - 1);
 	ft_fill_stack(head, arr);
+	free(arr);
 	return (head);
 }
 
@@ -60,4 +61,10 @@ int	main(int argc, char **argv)
 		return (0);
 	a = ft_read_stack(&argv[1], argc - 1);
 	ft_sort_stack(&a, &b);
+	while (a)
+	{
+		b = a;
+		a = a->right;
+		free(b);
+	}
 }
